@@ -1,18 +1,23 @@
 import './App.css';
 import Mining from "./components/mining/mining";
 import {Route} from "react-router-dom";
+
 const tg = window.Telegram.WebApp;
 
-const App =()=> {
-  return (
-    <div className="App">
-        if({tg.initDataUnsafe.user.username}){
-        <Route path='/' exact={true} render={ () => <Mining/> }/>
-    }else{
-        <h1>Oooops</h1>
+const App = () => {
+    if (tg.initDataUnsafe.user.username) {
+        return (
+            <div className="App">
+
+                <Route path='/' exact={true} render={() => <Mining/>}/>
+
+            </div>
+        );
+    } else {
+        <div className="App">
+             <h1>ooops</h1>
+        </div>
     }
-    </div>
-  );
 }
 
 export default App;
