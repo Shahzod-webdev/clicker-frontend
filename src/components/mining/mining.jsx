@@ -6,7 +6,7 @@ const Mining =()=>{
     return(
         <div>
             <h1>Mining</h1>
-            <span>{tg.username}</span>
+            <span>{tg.initDataUnsafe?.user?.username}</span>
 
             <Avatar />
         </div>
