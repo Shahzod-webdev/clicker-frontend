@@ -5,9 +5,8 @@ const tg = window.Telegram.WebApp;
 const Mining =()=>{
     return(
         <div>
-            <h1>Mining2</h1>
-            <span>{tg.initDataUnsafe.user.username}</span>
-
+            <h1>Mining3</h1>
+            <h1>{tg.initData.user.username}</h1>
             <Avatar />
         </div>
     )
