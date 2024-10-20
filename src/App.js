@@ -5,7 +5,7 @@ import {Route} from "react-router-dom";
 const tg = window.Telegram.WebApp;
 
 const App = () => {
-    if (tg.initDataUnsafe.user.username) {
+    if (tg.ready) {
         return (
             <div className="App">
 
