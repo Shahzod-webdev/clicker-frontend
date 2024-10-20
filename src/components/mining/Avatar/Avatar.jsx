@@ -8,7 +8,7 @@ const Avatar = () =>{
     return(
         <div>
 
-        <h1>`${balance}`</h1>
+        <h1>${balance}</h1>
         <div className={s.avatar} onClick={balance++}>
 
         </div>
