@@ -9115,6 +9115,11 @@ tapable@^2.0.0, tapable@^2.1.1, tapable@^2.2.0, tapable@^2.2.1:
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.2.1.tgz#1967a73ef4060a82f12ab96af86d52fdb76eeca0"
   integrity sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==
 
+telegram-web-app@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/telegram-web-app/-/telegram-web-app-0.0.0.tgz#e81b9396b0f128abb5af82d966ea4b25d3fe432c"
+  integrity sha512-ATBq/6ZRIwp7CnU1QMv1aSSLkUJFvO4FHZpbXpOdsFVO9n7teWsrC2I0JbHwfAhx6CgiaOVv+pdmHIlXZiK5ug==
+
 temp-dir@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/temp-dir/-/temp-dir-2.0.0.tgz#bde92b05bdfeb1516e804c9c00ad45177f31321e"
