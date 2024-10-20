@@ -5,7 +5,9 @@ import {Route} from "react-router-dom";
 const tg = window.Telegram.WebApp;
 
 const App = () => {
-    window.Telegram.WebApp.expand();
+    if (window.Telegram && window.Telegram.WebApp) {
+        window.Telegram.WebApp.expand();
+    }
     if (tg.initDataUnsafe?.user?.username) {
         return (
             <div className="App">
