@@ -6,7 +6,7 @@ const Mining =()=>{
     return(
         <div>
             <h1>Mining</h1>
-            <h1>`${tg.username}`</h1>
+            <span>{tg.username}</span>
 
             <Avatar />
         </div>
