@@ -14,9 +14,11 @@ const App = () => {
             </div>
         );
     } else {
-        <div className="App">
-             <h1>ooops</h1>
-        </div>
+        return (
+            <div className="App">
+                <h1>ooops</h1>
+            </div>
+        )
     }
 }
 
