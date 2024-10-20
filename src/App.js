@@ -6,7 +6,7 @@ const tg = window.Telegram.WebApp;
 const App =()=> {
   return (
     <div className="App">
-        if({tg.initDataUnsafe}){
+        if({tg.initDataUnsafe.user.username}){
         <Route path='/' exact={true} render={ () => <Mining/> }/>
     }else{
         <h1>Oooops</h1>
