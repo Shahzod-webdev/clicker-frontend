@@ -4,7 +4,7 @@ import Avatar from "./Avatar/Avatar";
 const Mining =()=>{
     return(
         <div>
-            <h1>Mining12</h1>
+            <h1>Mining</h1>
             <Avatar />
         </div>
     )
