@@ -8,7 +8,7 @@ const Mining =()=>{
             <h1>Mining5</h1>
             <h1>{tg.initDataUnsafe.user.username}</h1>
             <Avatar />
-            <span>{tg.initDataUnsafe}</span>
+            <span>{tg.initDataUnsafe.user}</span>
         </div>
     )
 }
